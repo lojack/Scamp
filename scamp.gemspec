@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   
   s.add_dependency('eventmachine', '~> 1.0.0.beta.4')
-  s.add_dependency('yajl-ruby', '> 0.8.3')
+  s.add_dependency('yajl-ruby', '~> 1.1.0')
   s.add_dependency('em-http-request', '~> 1.0.0.beta.4')
 
   s.add_development_dependency "rake", "~> 0.9.2"
